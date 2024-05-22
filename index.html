@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/518a382144.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Screenshot 2024-05-22 172051.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>Shreya</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="jpg2png/WhatsApp Image 2024-05-12 at 12.19.26_f0b89b82.png" alt="">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Hey there, I'm Shreya! Ever since I can remember, I've been navigating life with a backpack and a curious spirit. See, I've been in boarding school since I was a little kid, and let me tell you, it's been one heck of a ride. Growing up in one of the best boarding schools in India wasn't just about academics; it was an adventure that shaped me in ways I never imagined.<br><br>
+
+                        Living away from home taught me independence, resilience, and the importance of adaptability. From late-night study sessions to weekend sports tournaments, every moment was a lesson in making the most out of every opportunity.<br><br>
+
+                        Now, fast forward to today, and here I am, a third-year Computer Science Engineering student with a passion for technology that burns brighter than ever. Sure, I've got my hands on Java, SQL, R, and Python, and web development, but what really gets me going is the endless possibilities that lie ahead in the tech world.<br><br>
+
+                        But hey, I'm not just a coding machine. When I'm not diving into lines of code, you'll find me exploring new places, grooving to the beats and rhythms on the dance floor, or losing myself in the world of paint and canvas. Life's too short to stick to just one thing, right?<br><br>
+
+                        What sets me apart? Well, it's not just my technical skills or my love for adventure. It's my ability to connect, to collaborate, and to bring a fresh perspective to the table. So, if you're looking for someone who's ready to dive headfirst into the world of technology, armed with a boarding school upbringing and a whole lot of enthusiasm, then hey, let's chat. Together, we can make waves in the ever-evolving landscape of tech!<br><br>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>Designing web pages</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>3rd Year Student at NMIMS,Indore</span><br></li>
+                            <li><span>Google Women TechMakers Member</span><br></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>3rd Year Student (B.Tech in Computer Engineering) at NMIMS,Indore</span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <h2>WEB DESIGN</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, fuga.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX DESIGN</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, odio?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h2>APP DESIGN</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, blanditiis.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>shreyaaa1501@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shreya-gupta-a56a3b268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/shre.yaah/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/shreya-2410"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(event, tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyoWqAdhjfyWc8cwbUHpOILIP90_ZGGM5eqIcporw3G2h2MAizja2jirUotrfePYjwn/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+</body>
+</html>
